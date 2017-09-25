@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A64572CA1F544F2000D81312 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64572C91F544F2000D81312 /* main.cpp */; };
+		A64572D11F544F2E00D81312 /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64572D01F544F2E00D81312 /* queue.cpp */; };
+		A64A64921F7138690092B22E /* HASH表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64A64911F7138690092B22E /* HASH表.cpp */; };
+		A68E80A91F72B52100267E6D /* 数据结构lab2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68E80A81F72B52100267E6D /* 数据结构lab2.cpp */; };
+		A6EE13D71F5D98A900598547 /* 二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6EE13D61F5D98A900598547 /* 二叉树.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		A64572C61F544F2000D81312 /* Data Structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structure"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64572C91F544F2000D81312 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A64572D01F544F2E00D81312 /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
+		A64A64911F7138690092B22E /* HASH表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "HASH表.cpp"; sourceTree = "<group>"; };
+		A68E80A81F72B52100267E6D /* 数据结构lab2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "数据结构lab2.cpp"; sourceTree = "<group>"; };
+		A6EE13D61F5D98A900598547 /* 二叉树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				A64572C91F544F2000D81312 /* main.cpp */,
+				A64572D01F544F2E00D81312 /* queue.cpp */,
+				A6EE13D61F5D98A900598547 /* 二叉树.cpp */,
+				A64A64911F7138690092B22E /* HASH表.cpp */,
+				A68E80A81F72B52100267E6D /* 数据结构lab2.cpp */,
 			);
 			path = "Data Structure";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68E80A91F72B52100267E6D /* 数据结构lab2.cpp in Sources */,
+				A6EE13D71F5D98A900598547 /* 二叉树.cpp in Sources */,
 				A64572CA1F544F2000D81312 /* main.cpp in Sources */,
+				A64A64921F7138690092B22E /* HASH表.cpp in Sources */,
+				A64572D11F544F2E00D81312 /* queue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +267,7 @@
 				A64572CF1F544F2000D81312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
