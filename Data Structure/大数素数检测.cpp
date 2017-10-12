@@ -42,6 +42,11 @@ int main(void){
     long x;
     cin >> x;
     while(x != EOF){
+        if(x <= 3) {
+            cout << "YES" << endl;
+            cin >> x;
+            continue;
+        }
         if(is_prime(x))
             cout << "YES" << endl;
         else
