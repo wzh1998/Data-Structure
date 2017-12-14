@@ -19,6 +19,7 @@
 		A64A64921F7138690092B22E /* HASH表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64A64911F7138690092B22E /* HASH表.cpp */; };
 		A68E80A91F72B52100267E6D /* 数据结构lab2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68E80A81F72B52100267E6D /* 数据结构lab2.cpp */; };
 		A69FF2381FA9C4A3003D9CC9 /* KMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69FF2371FA9C4A3003D9CC9 /* KMP.cpp */; };
+		A6A2CE091FDAC7C80076EA4F /* 大数取余.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6A2CE081FDAC7C80076EA4F /* 大数取余.cpp */; };
 		A6AD60C11FA2127A00F19D3F /* 并查集.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6AD60C01FA2127A00F19D3F /* 并查集.cpp */; };
 		A6D4B6481F8F6C4B00375C85 /* 大数素数检测.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6D4B6471F8F6C4B00375C85 /* 大数素数检测.cpp */; };
 		A6E566A61FD03C06006D7DD3 /* 约瑟夫问题及其变形综整.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E566A51FD03C06006D7DD3 /* 约瑟夫问题及其变形综整.cpp */; };
@@ -50,6 +51,7 @@
 		A64A64911F7138690092B22E /* HASH表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "HASH表.cpp"; sourceTree = "<group>"; };
 		A68E80A81F72B52100267E6D /* 数据结构lab2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "数据结构lab2.cpp"; sourceTree = "<group>"; };
 		A69FF2371FA9C4A3003D9CC9 /* KMP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KMP.cpp; sourceTree = "<group>"; };
+		A6A2CE081FDAC7C80076EA4F /* 大数取余.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "大数取余.cpp"; sourceTree = "<group>"; };
 		A6AD60C01FA2127A00F19D3F /* 并查集.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "并查集.cpp"; sourceTree = "<group>"; };
 		A6D4B6471F8F6C4B00375C85 /* 大数素数检测.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "大数素数检测.cpp"; sourceTree = "<group>"; };
 		A6E566A51FD03C06006D7DD3 /* 约瑟夫问题及其变形综整.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "约瑟夫问题及其变形综整.cpp"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				A6D4B6471F8F6C4B00375C85 /* 大数素数检测.cpp */,
 				A60F89121F9F664C002CAF71 /* 二叉搜索树.cpp */,
 				A60F89141F9F798F002CAF71 /* 二叉搜索树STL实现_set.cpp */,
+				A6A2CE081FDAC7C80076EA4F /* 大数取余.cpp */,
 				A6135C7E1FB56CA100559A52 /* BST简易版.cpp */,
 				A6135C821FB5BBA700559A52 /* AVL树.cpp */,
 				A6AD60C01FA2127A00F19D3F /* 并查集.cpp */,
@@ -177,6 +180,7 @@
 				A6135C831FB5BBA700559A52 /* AVL树.cpp in Sources */,
 				A64A64921F7138690092B22E /* HASH表.cpp in Sources */,
 				A64572D11F544F2E00D81312 /* queue.cpp in Sources */,
+				A6A2CE091FDAC7C80076EA4F /* 大数取余.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
