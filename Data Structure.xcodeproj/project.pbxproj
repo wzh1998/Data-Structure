@@ -16,10 +16,11 @@
 		A61614791FA33C47007564C7 /* 约瑟夫.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A61614781FA33C47007564C7 /* 约瑟夫.cpp */; };
 		A6337ECF1FE3982700979274 /* 图论-邻接表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6337ECE1FE3982700979274 /* 图论-邻接表.cpp */; };
 		A6337ED11FE3A66600979274 /* 图论-最短路-Bellman-Ford.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6337ED01FE3A66600979274 /* 图论-最短路-Bellman-Ford.cpp */; };
-		A6337ED31FE3E1BD00979274 /* 图论-最短路-Dijkstra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6337ED21FE3E1BD00979274 /* 图论-最短路-Dijkstra.cpp */; };
+		A6337ED31FE3E1BD00979274 /* 图论-最短路-Dijkstra-邻接矩阵.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6337ED21FE3E1BD00979274 /* 图论-最短路-Dijkstra-邻接矩阵.cpp */; };
 		A64572CA1F544F2000D81312 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64572C91F544F2000D81312 /* main.cpp */; };
 		A64572D11F544F2E00D81312 /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64572D01F544F2E00D81312 /* queue.cpp */; };
 		A64A64921F7138690092B22E /* HASH表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64A64911F7138690092B22E /* HASH表.cpp */; };
+		A66A755E1FE3FC5C0054A8A3 /* 图论-最短路-Dijkstra-邻接表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A66A755D1FE3FC5C0054A8A3 /* 图论-最短路-Dijkstra-邻接表.cpp */; };
 		A68E80A91F72B52100267E6D /* 数据结构lab2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68E80A81F72B52100267E6D /* 数据结构lab2.cpp */; };
 		A69FF2381FA9C4A3003D9CC9 /* KMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69FF2371FA9C4A3003D9CC9 /* KMP.cpp */; };
 		A6A2CE091FDAC7C80076EA4F /* 大数取余.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6A2CE081FDAC7C80076EA4F /* 大数取余.cpp */; };
@@ -50,11 +51,12 @@
 		A61614781FA33C47007564C7 /* 约瑟夫.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "约瑟夫.cpp"; sourceTree = "<group>"; };
 		A6337ECE1FE3982700979274 /* 图论-邻接表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "图论-邻接表.cpp"; sourceTree = "<group>"; };
 		A6337ED01FE3A66600979274 /* 图论-最短路-Bellman-Ford.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "图论-最短路-Bellman-Ford.cpp"; sourceTree = "<group>"; };
-		A6337ED21FE3E1BD00979274 /* 图论-最短路-Dijkstra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "图论-最短路-Dijkstra.cpp"; sourceTree = "<group>"; };
+		A6337ED21FE3E1BD00979274 /* 图论-最短路-Dijkstra-邻接矩阵.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "图论-最短路-Dijkstra-邻接矩阵.cpp"; sourceTree = "<group>"; };
 		A64572C61F544F2000D81312 /* Data Structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structure"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64572C91F544F2000D81312 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A64572D01F544F2E00D81312 /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
 		A64A64911F7138690092B22E /* HASH表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "HASH表.cpp"; sourceTree = "<group>"; };
+		A66A755D1FE3FC5C0054A8A3 /* 图论-最短路-Dijkstra-邻接表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "图论-最短路-Dijkstra-邻接表.cpp"; sourceTree = "<group>"; };
 		A68E80A81F72B52100267E6D /* 数据结构lab2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "数据结构lab2.cpp"; sourceTree = "<group>"; };
 		A69FF2371FA9C4A3003D9CC9 /* KMP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KMP.cpp; sourceTree = "<group>"; };
 		A6A2CE081FDAC7C80076EA4F /* 大数取余.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "大数取余.cpp"; sourceTree = "<group>"; };
@@ -111,7 +113,8 @@
 				A69FF2371FA9C4A3003D9CC9 /* KMP.cpp */,
 				A6337ECE1FE3982700979274 /* 图论-邻接表.cpp */,
 				A6337ED01FE3A66600979274 /* 图论-最短路-Bellman-Ford.cpp */,
-				A6337ED21FE3E1BD00979274 /* 图论-最短路-Dijkstra.cpp */,
+				A6337ED21FE3E1BD00979274 /* 图论-最短路-Dijkstra-邻接矩阵.cpp */,
+				A66A755D1FE3FC5C0054A8A3 /* 图论-最短路-Dijkstra-邻接表.cpp */,
 			);
 			path = "Data Structure";
 			sourceTree = "<group>";
@@ -179,12 +182,13 @@
 				A6337ECF1FE3982700979274 /* 图论-邻接表.cpp in Sources */,
 				A68E80A91F72B52100267E6D /* 数据结构lab2.cpp in Sources */,
 				A60F89131F9F664C002CAF71 /* 二叉搜索树.cpp in Sources */,
-				A6337ED31FE3E1BD00979274 /* 图论-最短路-Dijkstra.cpp in Sources */,
+				A6337ED31FE3E1BD00979274 /* 图论-最短路-Dijkstra-邻接矩阵.cpp in Sources */,
 				A6D4B6481F8F6C4B00375C85 /* 大数素数检测.cpp in Sources */,
 				A6AD60C11FA2127A00F19D3F /* 并查集.cpp in Sources */,
 				A61614791FA33C47007564C7 /* 约瑟夫.cpp in Sources */,
 				A6135C7F1FB56CA200559A52 /* BST简易版.cpp in Sources */,
 				A60F89151F9F798F002CAF71 /* 二叉搜索树STL实现_set.cpp in Sources */,
+				A66A755E1FE3FC5C0054A8A3 /* 图论-最短路-Dijkstra-邻接表.cpp in Sources */,
 				A608D1E11FCC3AFB0046AE5C /* RMQ线段树.cpp in Sources */,
 				A61614771FA2EFDD007564C7 /* 中缀表达式转后缀(Infix_to_Postfix).cpp in Sources */,
 				A64572CA1F544F2000D81312 /* main.cpp in Sources */,

@@ -23,12 +23,18 @@ bool used[MAX_V];
 int V;
 
 void dijkstra(){
-    
+    fill(d, d + V, INF);
+    fill(used,used + V,INF);
+    while(true){
+        int v = -1;
+        for(int u = 0;u < V;u++){
+            if(!used[u] && (v == -1 || d[u] < d[v])) v = u;
+        }
+        if(v == -1) break;
+        used[v] = true;
+        for(int u = 0;u < V;u++){
+            d[u] = min(d[u], d[v] + cost[u][v]);
+        }
+    }
 }
 
-int main(void){
-    
-    
-    
-    return 0;
-}
