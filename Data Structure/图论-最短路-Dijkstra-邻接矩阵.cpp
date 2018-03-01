@@ -24,7 +24,7 @@ int V;
 
 void dijkstra(){
     fill(d, d + V, INF);
-    fill(used,used + V,INF);
+    fill(used,used + V,false);
     while(true){
         int v = -1;
         for(int u = 0;u < V;u++){
